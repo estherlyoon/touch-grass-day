@@ -1,0 +1,260 @@
+/* LEARNATHON STUFF START */
+/* That one pink: #F8A68C
+   Yellow Freetail: #FCE6C4 
+   Other Yellow: #EAE55A*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #FFF;
+}
+
+#slide {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+@media only screen and (max-width: 670px) {
+    #slide {
+        overflow:visible;
+        overflow-x:hidden;
+    }}
+
+.acm-logo{
+    position: absolute;
+    left: 2vw;
+    top: .2vw;
+    z-index: 2;
+    width: 7.5vw;
+    z-index: 4;
+}
+@media only screen and (max-width: 670px) {
+    .acm-logo {
+        left: 2vw;
+        width: 11vw;
+      } }
+
+#title {
+    position: absolute;
+    width: 48vw;
+    height: 12vw;
+    left: 27%;
+    top: 1%;
+    z-index: 4;
+}
+@media only screen and (max-width: 670px) {
+    #title {
+      width: 80vw;
+      height: 23vw;
+      left: 10%;
+      top: 5%;
+    }}
+
+#date {
+    position: absolute;
+    width: 40vw;
+    left: 32%;
+    top: 36%;
+    z-index: 4;
+    color: whitesmoke;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+@media only screen and (max-width: 670px) {
+    #date {
+        left: 40%;
+        top: 30%;
+        width: 50vw;
+        font-size: 3vw;
+    }}
+
+#subtitle {
+    position: absolute;
+    width: 70vw;
+    left: 17%;
+    top: 26%;
+    z-index: 4;
+    color: whitesmoke;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2vw;
+    text-align:center
+}
+@media only screen and (max-width: 670px) {
+    #subtitle {
+        left: 18%;
+        top: 22%;
+        width: 65vw;
+        font-size: 3vw;
+    }}
+
+div.center{
+    text-align: center;
+}
+
+div.transparentbox {
+  margin: 30px;
+  background-color: whitesmoke;
+  opacity: 0.7;
+  position: absolute;
+  top: 35.5%;
+  left: 12%;
+  width: 75vw;
+  height: 28vw;
+  z-index:5;
+  border-radius: 25px;
+}
+@media only screen and (max-width: 670px) {
+    div.transparentbox {
+        top: 30%;
+        left: 1.5%;
+        width: 80vw;
+        height: 129vw;
+    }}
+
+div.transparentboxp {
+  position: absolute;
+  top: 35.5%;
+  left: 14%;
+  width: 72vw;
+  margin: 2%;
+  z-index: 11;
+  color: black;
+  font-size: 1.1vw;
+  font-weight: bold;
+  font-family: Montserrat;
+}
+@media only screen and (max-width: 670px) {
+    div.transparentboxp {
+        top: 35%;
+        left: 10%;
+        width: 75vw;
+        font-size: 2.75vw;
+        height: 100vw;
+    }}
+
+#clouds {
+    position: absolute;
+    width: 100vw;
+    height: 123vh;
+    left: 0%;
+    top: -22%;
+    z-index: 1;
+}
+@media only screen and (max-width: 670px) {
+    #clouds {
+      height: 100vh;
+      top:0%
+    }}
+
+#what1 {
+    position: absolute;
+    width: 42vw;
+    left: 6%;
+    top: 58%;
+    z-index: 5;
+}
+@media only screen and (max-width: 670px) {
+    #what1 {
+      width: 66vw;
+      left: 15%;
+      top: 56%;
+    }}
+
+#what2 {
+    position: absolute;
+    width: 42vw;
+    left: 51%;
+    top: 62%;
+    z-index: 5;
+}
+@media only screen and (max-width: 670px) {
+    #what2 {
+        width: 66vw;
+        left: 15%;
+        top: 75%;
+    }}
+
+#a1 {
+    position: absolute;
+    left: 74%;
+    top: -22%;
+    width: 35vw;
+    z-index: 2;
+}
+@media only screen and (max-width: 670px) {
+    #a1 {
+        position: absolute;
+        left: 74%;
+        top: 0%;
+        width: 35vw;
+        z-index: 2;
+    }}
+
+#a2 {
+    position: absolute;
+    left: -3%;
+    top: -7%;
+    width: 30vw;
+    z-index: 2;
+}
+@media only screen and (max-width: 670px) {
+    #a2 {
+        position: absolute;
+        left: -5%;
+        top: 20%;
+        width: 35vw;
+        z-index: 2;
+    }}
+
+#a5 {
+    position: absolute;
+    left: 18%;
+    top: 48%;
+    width: 27vw;
+    z-index: 2;
+}
+@media only screen and (max-width: 670px) {
+    #a5 {
+        position: absolute;
+        left: 35%;
+        top: 60%;
+        width: 35vw;
+        z-index: 2;
+    }}
+
+.footer{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    font-size: 1.2vw;
+    color:black; 
+    font-family:Montserrat;
+    top: 55vw;
+    margin-bottom: 5%;
+}
+@media only screen and (max-width: 670px) {
+    .footer {
+      font-size: 1.8vw;
+      top: 240vw; } }
+
+.background-container {
+    width: 100%;
+    user-select: none;
+    position: relative;
+    background-size: cover;
+    height: 100%; 
+    /* background: linear-gradient(360deg, #FFC7BD 69.86%, rgba(255, 199, 189, 0) 106.09%); */
+}
